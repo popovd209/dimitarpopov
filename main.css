@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(0, 0, 51);
+    background-size: 100% 110%;
+    font-family: Verdana, serif;
+    color: white;
+}
+p {
+    font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 28px;
+}
+body a {
+    color: rgb(0, 92, 230);
+    text-decoration: none;
+}
+body a:hover {
+    color: rgb(26, 117, 255);
+}
+header nav ul li {
+    display: inline-block;
+    width: 10%;
+    margin: 0 20px;
+}
+header nav ul li a button {
+    background-color: rgb(0, 34, 102);
+    color: white;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+}
+header nav ul li a button:hover {
+    cursor: pointer;
+    color: rgb(26, 117, 255);
+    opacity: 0.8;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header nav ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+main {
+    padding: 100px 0 50px 0;
+    width: 80%;
+    margin: auto;
+}
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact-links {
+    width: 36px;
+    height: 36px;
+    margin: 0 5px;
+}
+.contact-links:hover {
+    opacity: 0.8;
+}
+#footerleft {
+    float: left;
+}
+#footerright {
+    float: right;
+}
+#welcome {
+    display: inline-block;
+    width: 50%;
+    padding: 2%;
+}
+#div1 {
+    display: flex;
+}
+#me {
+    border: none;
+    border-radius: 5%;
+}
+#aboutme {
+    text-align: justify;
+}
+#afterme {
+    padding: 2%;
+}
+#laptop {
+    border: none;
+    border-radius: 5%;
+    width: 50%;
+}
+.desc {
+    width: 280px;
+    text-align: center;
+    margin: 0;
+}
+.section1-div {
+    margin: 20px 0;
+    padding: 20px;
+}
+#section1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.placeholder {
+    border: none;
+    border-radius: 10%;
+}
+#contact-div {
+    width: 40%;
+    text-align: center;
+    padding: 20px 0;
+}
+#name, #email, #message, #send {
+    width: 60%;
+    margin: 10px;
+    border: 1px solid rgb(0, 34, 102);
+    border-radius: 5px;
+}
+#name, #email {
+    height: 40px;
+}
+#message {
+    height: 150px;
+}
+#send {
+    height: 35px;
+    color: white;
+    background-color: rgb(0, 34, 102);
+}
+#send:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: rgb(26, 117, 255);
+}
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact-text {
+    padding: 2%;
+}
+#about-wrapper {
+    display: flex;
+}
+.tags {
+    text-align: center;
+}
+#preamble {
+    margin-left: 20%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#purple {
+    border-radius: 50%;
+}
+#clean {
+    margin-top: -25px;
+}
